@@ -10,7 +10,7 @@
     </parent>
     <groupId>org.nekperu15739</groupId>
     <artifactId>testcontainers-oracle</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>testcontainers-oracle</name>
     <description>Demo project for Spring Boot</description>
 
@@ -83,4 +83,11 @@
         </dependencies>
     </dependencyManagement>
 
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>http://nexus.saas.hand-china.com/content/repositories/rdc/</url>
+        </repository>
+    </repositories>
 </project>
